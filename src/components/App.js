@@ -1,13 +1,13 @@
+import React from 'react';
+import MovieSearch from './components/MovieSearch';
 
-import React from "react";
-import './../styles/App.css';
-
-const App = () => {
+function App() {
   return (
-    <div>
-        {/* Do not remove the main div */}
+    <div className="App">
+      <h1>Movie Search</h1>
+      <MovieSearch />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
