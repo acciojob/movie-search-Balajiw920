@@ -8,7 +8,7 @@ function SearchBar() {
   const searchMovies = async () => {
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?s=${query}&apikey=YOUR_API_KEY`
+        `http://www.omdbapi.com/?s=${query}&apikey= http://www.omdbapi.com/?i=tt3896198&apikey=251bf15`
       );
       const data = await response.json();
 
