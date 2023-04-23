@@ -1,7 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import React from 'react';
+import MovieSearch from './components/MovieSearch';
 
+function App() {
+  return (
+    <div className="App">
+      <h1>Movie Search</h1>
+      <MovieSearch />
+    </div>
+  );
+}
 
-
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
